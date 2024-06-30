@@ -34,6 +34,8 @@ console.log('made fullName', fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+let myFirstFavFood = me.favThreeFoods[0];
+console.log('my first fav food is ', myFirstFavFood);
 
 
 
@@ -43,7 +45,8 @@ console.log('made fullName', fullName);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+ me.shoeCount = me.shoeCount +1;
+console.log('my new shoe count should now be 5', me, me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -51,3 +54,5 @@ console.log('made fullName', fullName);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+ me.favoriteColor = me.favoriteColor = ('purple');
+console.log('added a new property favorite color to me, purple',me, me.favoritecolor);
